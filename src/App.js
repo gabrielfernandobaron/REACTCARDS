@@ -1,25 +1,44 @@
-import logo from './logo.svg';
 import './App.css';
+import Tarjetas from './components/tarjetas';
+import { useEffect,useState } from 'react';
+import axios from 'axios';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  const [data,setData] =  useState([])
 
-export default App;
+  const getData=()=>{
+    axios('data.json').then((res)=>{
+      console.log(res.data)
+      setData(res.data)
+    }).catch((err)=>{
+      console.log(err)
+    })
+    }
+  
+  useEffect(() => {
+
+  getData()
+
+  },[])
+  
+  return(
+    <div className="App">
+      <div className="tarjetas_title">
+        <h1 className="title">star wars</h1>
+        
+      </div>
+      
+
+      {data?.map(el => {
+        return(
+          
+          <Tarjetas key={el.id} image={el.image} abilidad={el.abilidad} type={el.type} descripcion={el.descripcion}/>
+        
+        )
+      })
+    }
+    </div>
+  )
+  }
+  
+export default App ;

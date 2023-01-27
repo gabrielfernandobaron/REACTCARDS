@@ -1,0 +1,34 @@
+.data{
+border: 1px solid coral;
+}
+.app{
+width: 500px;
+}
+.card_text{
+color: hsl(86, 88%, 51%);
+text-align: center;
+size: 100px;
+width: 430px;
+margin-bottom: 100px;
+background-color: black;
+}
+.title{
+text-align: center;
+color: rgba(8, 69, 236, 0.918);
+font-size: 100px;
+border: black;
+
+}
+.Tarjetas_title{
+border: 1px solid black;
+display: flex;
+justify-content: center;
+width: 500px;
+}
+img{
+    height: 250px;
+    
+}
+.Tarjetas:hover .complete card{
+    transform: rotateY(100deg);
+}

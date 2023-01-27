@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "image":"https://lamenteesmaravillosa.com/wp-content/uploads/2021/06/yoda-768x449.jpg",
+        "abilidad": "YODA",
+        "type": "Yoda es un personaje ficticio del universo de Star Wars Era un reverenciado Maestro Jedi que sirvió como Gran Maestro de la Orden Jedi en los últimos días",
+        "descripcion":   "Era uno de los más renombrados y poderosos maestros Jedi durante toda la historia de la Galaxia, y uno de los pocos Jedis de la República Galáctica en sobrevivir hasta la Guerra Civil Galáctica"
+    },
+    {
+        "id": 2,
+        "image": "https://media.ambito.com/p/3f6496dc469474b0d9bca8286009b056/adjuntos/239/imagenes/039/830/0039830422/chewbaccajpg.jpg",
+        "abilidad":  "CHEWBACCA",
+        "type": "Chewbacca es un personaje del universo ficticio de Star Wars Es un wookiee, un bípedo alto, peludo y robusto, especie inteligente del planeta Kashyyyk",
+        "descripcion":  "Chewbacca es el leal amigo y socio de Han Solo, y sirve como copiloto en la nave espacial de Solo, el Halcón Milenario. Era interpretado por el actor Peter Mayhew" 
+    },
+    {
+        "id": 3,
+        "image":"https://media.contentapi.ea.com/content/dam/star-wars-battlefront-2/images/2019/08/swbf2-refresh-hero-large-heroes-page-luke-skywalker-16x9-xl.jpg.adapt.crop1x1.320w.jpg",
+        "abilidad": "Luke Skywalker",
+        "type":  "Luke Skywalker es un personaje ficticio y el protagonista​ de la trilogía original de la saga de ciencia ficción Star Wars​ Procedente de la colonia de asteroides de Polis Massa",
+        "descripcion": "Es el único hijo varón de Anakin Skywalker y la senadora Padmé Amidala. Wikipedia"
+    }
+]
